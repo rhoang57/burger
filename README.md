@@ -1,5 +1,5 @@
 # burger
-A burger logging application with MySQL, Node, Express, Handlebars and an ORM. Node and MySQL are used to query and route data in the app, and Handlebars is used to generate HTML.
+A burger logging application with MySQL, Node, Express, Handlebars and an ORM. Node and MySQL are used to query and route data in the app, and Handlebars is used to generate HTML. The fully functional deploymed version of this app may be found at: https://pure-earth-45285.herokuapp.com/
 
 If you plan to test this app locally, please make sure you perform the following tasks:
 
