@@ -1,9 +1,10 @@
 body{
-    color: orange;
+    color: white;
+
 }
 
 .jumbotron{
-    background-color: gray;
+    background-color: rgb(248, 213, 149);
 }
 
 .center-text{
@@ -21,14 +22,18 @@ body{
 #lead{
     font-family: 'Bungee', cursive;
     font-size: 1rem;
-    color: yellow;
+    color: rgb(255, 94, 0);
 }
 
 
-.right-side {
-    border-left: 2px solid rgba(255, 68, 0, 0.719);
-}
-
-#burgersMade, label {
+#burgersMade {
     color: green;
+}
+
+label {
+    color: white;
+}
+
+#newBurger {
+    color: red;
 }

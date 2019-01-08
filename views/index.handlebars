@@ -2,6 +2,8 @@
 
     <div class="jumbotron">
         <div class="center-text">
+        <!-- index.handlebars is getting served through the public folder, so relative path is different below -->
+        <img id="logo" src="/assets/img/burger.png" alt="burger logo"><br>
         <h1 class="text-center" id="title">CRUD Burgers!</h1>
         <p id="lead">Burgers you make and take away</p>
         </div>
@@ -10,9 +12,9 @@
         <panel>
             <form class="create-form">
                 <div class="form-group">
-                    <label for="newburger">What type of burger would you like?:</label>
+                    <label for="newBurger">What type of burger would you like?:</label>
                     <input type="text" id="newBurger" name="burger" style="width:35%">
-                    <button type="submit" class="btn btn-warning"</button>
+                    <button type="submit" class="btn btn-warning">Send Burger for Preparation</button>
                 </div>
             </form>
         </panel>
